@@ -1,0 +1,13 @@
+{
+  "name": "NoMoreShitInVTomskeRU",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Disable grayscale shit for adblock users.",
+  "content_scripts": [
+    {
+      "matches": ["http://news.vtomske.ru/*"],
+      "css": ["basic.css"],
+      "js": ["jquery.min.js", "contentscript.js"]
+    }
+  ]
+}
