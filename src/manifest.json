@@ -5,7 +5,7 @@
   "description": "Disable grayscale shit for adblock users.",
   "content_scripts": [
     {
-      "matches": ["http://news.vtomske.ru/*"],
+      "matches": ["http://*.vtomske.ru/*"],
       "css": ["basic.css"],
       "js": ["jquery.min.js", "contentscript.js"]
     }
